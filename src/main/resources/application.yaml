@@ -1,0 +1,60 @@
+##普通的keyvalue
+#name: adsh
+##对象
+#student1:
+#  name: ad
+#  age: 3
+#
+##行内写法
+#student2: {name: adsh,age: 3}
+#
+##数组:
+#pets1:
+#  - dog
+#  - cat
+#  - cow
+#
+#pets2: [dog,cat,cow]
+
+
+#person:
+#  name: adsh${random.int}
+#  age: 3
+#  date: 2022/11/19
+#  happy: true
+#  maps: {a: b,c: d}
+#  lists:
+#    - lucky
+#    - work
+#    - job
+#  dog:
+#    name: ns
+#    age: 3
+#dog:
+#  full-name: ns
+#  age: 3
+#
+
+
+#server:
+#  port: 8083
+
+#springboot的多环境配置：可以选择激活哪一个配置文件
+#server:
+#  port: 8081
+#spring:
+#  profiles:
+#    active: dev
+#---
+#server:
+#  port: 8082
+#spring:
+#  profiles: dev
+#
+#---
+#server:
+#  port: 8083
+#spring:
+#  profiles: test
+
+
